@@ -1,7 +1,7 @@
 import click
 from rich import print
 
-from cookie_cutter.__about__ import __version__
+from cookiecutter.__about__ import __version__
 
 
 @click.command()

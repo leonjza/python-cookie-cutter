@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "cookie-cutter"
+name = "cookiecutter"
 dynamic = ["version"]
 description = 'An skeleton, cookie cutter project to quickly bootstrap python CLI projects'
 readme = "README.md"
@@ -27,7 +27,7 @@ dependencies = [
 ]
 
 [project.scripts]
-cookie-cutter = "cookie_cutter.cli.cli:cli"
+cookiecutter = "cookiecutter.cli.cli:cli"
 
 [project.urls]
 Documentation = "https://github.com/leonjza/cookie-cutter#readme"
@@ -35,7 +35,7 @@ Issues = "https://github.com/leonjza/cookie-cutter/issues"
 Source = "https://github.com/leonjza/cookie-cutter"
 
 [tool.hatch.version]
-path = "cookie_cutter/__about__.py"
+path = "cookiecutter/__about__.py"
 
 [tool.hatch.envs.types]
 extra-dependencies = [

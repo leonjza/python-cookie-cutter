@@ -1,7 +1,7 @@
 # Cookie Cutter
 
-[![PyPI - Version](https://img.shields.io/pypi/v/cookie-cutter.svg)](https://pypi.org/project/cookie-cutter)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cookie-cutter.svg)](https://pypi.org/project/cookie-cutter)
+[![PyPI - Version](https://img.shields.io/pypi/v/cookiecutter.svg)](https://pypi.org/project/cookiecutter)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.org/project/cookiecutter)
 
 -----
 
@@ -13,9 +13,9 @@
 ## Installation
 
 ```console
-pip install cookie-cutter
+pip install cookiecutter
 ```
 
 ## License
 
-`cookie-cutter` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+`cookiecutter` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

@@ -1,6 +1,6 @@
 import click
 
-from cookie_cutter.cli.commands import version
+from cookiecutter.cli.commands import version
 
 
 @click.group()
