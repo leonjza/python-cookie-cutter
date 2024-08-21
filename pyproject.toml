@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cookie-cutter"
+dynamic = ["version"]
+description = 'An skeleton, cookie cutter project to quickly bootstrap python CLI projects'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "leonjza" },
+]
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "click~=8.1",
+  "rich~=13.7"
+]
+
+[project.scripts]
+cookie-cutter = "cookie_cutter.cli.cli:cli"
+
+[project.urls]
+Documentation = "https://github.com/leonjza/cookie-cutter#readme"
+Issues = "https://github.com/leonjza/cookie-cutter/issues"
+Source = "https://github.com/leonjza/cookie-cutter"
+
+[tool.hatch.version]
+path = "cookie_cutter/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
