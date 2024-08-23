@@ -26,6 +26,9 @@ dependencies = [
   "rich~=13.7"
 ]
 
+[project.optional-dependencies]
+dev = []
+
 [project.scripts]
 cookiecutter = "cookiecutter.cli.cli:cli"
 
